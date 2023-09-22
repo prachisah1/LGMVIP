@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://marketplace.canva.com/EAE-2HpEnUY/1/0/1600w/canva-blue-minimalist-quotes-work-hard-desktop-wallpaper-5YdTujrmtAs.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: auto;
+   
+}
+.completed {
+    text-decoration: line-through;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: url('https://cdn.wallpapersafari.com/61/1/k54O3t.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.task-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #699fd8;
+    border-radius: 200px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0.1, 0.5);
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #333;
+    font-size: 16px;
+    outline: none;
+    color: #333;
+    transition: border-bottom 0.2s ease-in-out;
+}
+
+input[type="text"]:focus {
+    border-bottom: 2px solid #007BFF;
+}
+
+button {
+    background-color: #fff;
+    color: #007BFF;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 200px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+    transition: transform 0.2s ease-in-out;
+}
